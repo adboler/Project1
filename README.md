@@ -153,5 +153,6 @@ SSH into the control node and follow the steps below:
 - /etc/ansible/filebeat-config.yml
 - edit the /etc/ansible/host file to add webserver/elkserver ip addresses
 - _Which URL do you navigate to in order to check that the ELK server is running? www.publicip:5601 (Kibana)
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
     -ansible-playbook filebeat-playbook.yml
